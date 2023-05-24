@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body{
+            background-image: linear-gradient(to right, #4d80ce, #7060bc);
+            font-family:Georgia, 'Times New Roman', Times, serif
+        }
+        form{
+            background-color: white;
+            width: 20%;
+            margin: auto;
+            margin-top: 5%;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border: none;
+        }
+        h1{
+            margin-bottom: 3rem;
+        }
+        input{
+            font-size: 16px;
+            padding: 15px;
+            width: 85%;
+            margin-bottom: 3em;
+            border: none;
+            border-bottom: 3px solid #adadad;
+            color: #bfbfbf;
+        }
+        input[type="submit"]{
+            color: white;
+            background-image: linear-gradient(to right, #4d80ce, #7060bc);
+        }
+        p{
+            margin-bottom: -5px;
+            color: #a1a1a1
+        }   
+        a{
+            color: #4d80ce;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Login</h1>
+        <input type="email" placeholder="Email"/>
+        <input type="password" placeholder="Password"/>
+        <input type="submit" value="Login"/>
+        <p>Forgot <a>Password</a>?</p>
+        <p>Don't have an account?<a> Sign up</a></p>
+    </form>
+</body>
+</html>
