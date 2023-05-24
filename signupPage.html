@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Signup</title>
+        <style>
+            form {
+                display: flex;
+                align-items: center;
+                width: 25%;
+                margin: auto;
+                flex-direction: column;
+                background-color: #48c9b0;
+                color: white;
+                padding: 4% 2.2%;
+                gap: 20px;
+                margin-top: 5%;
+            }
+            h2 {
+                font-size: 2rem;
+                margin-top: -15px;
+            }
+            input {
+                width: 80%;
+                padding: 17px;
+                font-size: 18px;
+            }
+            #signup,
+            #return {
+                background-color: #17a387;
+                border: none;
+                color: white;
+                width: 89%;
+                font-size: 20px;
+                padding: 20px 17px;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <h2>- Visitor -</h2>
+            <input type="text" placeholder="Full Name" />
+            <input type="email" placeholder="Email" />
+            <input type="text" placeholder="Organization" />
+            <input type="submit" id="signup" value="Sign Up" />
+            <input type="button" id="return" value="Return" />
+        </form>
+    </body>
+</html>
